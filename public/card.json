@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.postimg.cc/zfh0fJWQ/unnamed-(1).png",
+    "title": "TaskMaster",
+    "companyName": "Productive Labs",
+    "description": "A smart task management app to organize your daily schedule efficiently.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.postimg.cc/DZK5JtPh/unnamed.png",
+    "title": "FitLife",
+    "companyName": "HealthTech Inc.",
+    "description": "Track your workouts, diet, and health metrics with ease.",
+    "size": 60,
+    "reviews": 980,
+    "ratingAvg": 4.2,
+    "downloads": 75000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 410 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.postimg.cc/NMwb9W7V/images-(3).jpg",
+    "title": "BudgetBuddy",
+    "companyName": "Finance Solutions",
+    "description": "Manage your expenses and savings effortlessly.",
+    "size": 25,
+    "reviews": 640,
+    "ratingAvg": 4.7,
+    "downloads": 42000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 345 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.postimg.cc/tTHDZLtw/images-(2).jpg",
+    "title": "PhotoMagic",
+    "companyName": "Creative Apps",
+    "description": "Edit photos like a pro with advanced filters and effects.",
+    "size": 120,
+    "reviews": 2100,
+    "ratingAvg": 4.6,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 920 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.postimg.cc/gJP4Xfq1/images-(1).jpg",
+    "title": "MindRelax",
+    "companyName": "Wellness Co.",
+    "description": "Meditation and mindfulness app to reduce stress and improve focus.",
+    "size": 35,
+    "reviews": 1450,
+    "ratingAvg": 4.8,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 915 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.postimg.cc/26fTbP7N/images.jpg",
+    "title": "TravelMate",
+    "companyName": "Global Adventures",
+    "description": "Plan your trips and discover new destinations easily.",
+    "size": 80,
+    "reviews": 860,
+    "ratingAvg": 4.3,
+    "downloads": 67000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 320 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.postimg.cc/RFzG6jQY/images.png",
+    "title": "QuickNotes",
+    "companyName": "Smart Tools",
+    "description": "Take notes, create checklists, and stay organized on the go.",
+    "size": 20,
+    "reviews": 540,
+    "ratingAvg": 4.1,
+    "downloads": 35000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 205 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.postimg.cc/pdjqd2zb/f8898e79f66ec9545847915a2b306594.jpg",
+    "title": "WeatherNow",
+    "companyName": "ClimateTech",
+    "description": "Get accurate weather forecasts and severe weather alerts.",
+    "size": 50,
+    "reviews": 1200,
+    "ratingAvg": 4.4,
+    "downloads": 80000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 460 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.postimg.cc/cHNTgVBZ/channels4-profile.jpg",
+    "title": "LearnLang",
+    "companyName": "EduTech",
+    "description": "Learn new languages easily with interactive lessons and quizzes.",
+    "size": 75,
+    "reviews": 1100,
+    "ratingAvg": 4.5,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 430 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.postimg.cc/fLh5t6fN/apps-37935-9007199266245907-b029bd80-381a-4869-854f-bac6f359c5c9.png",
+    "title": "ShopEasy",
+    "companyName": "E-Commerce Ltd",
+    "description": "Online shopping app with deals, discounts, and fast checkout.",
+    "size": 95,
+    "reviews": 1500,
+    "ratingAvg": 4.3,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 640 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.postimg.cc/R0tX0MKx/87a0e7dbe50d4682102d7a1e0f2e360a-icon.png",
+    "title": "RecipeBox",
+    "companyName": "Foodies Inc",
+    "description": "Discover and share recipes with step-by-step instructions.",
+    "size": 40,
+    "reviews": 880,
+    "ratingAvg": 4.6,
+    "downloads": 62000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 415 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.postimg.cc/FKSDK93Q/3871911.png",
+    "title": "MusicFlow",
+    "companyName": "TuneTech",
+    "description": "Stream your favorite songs and discover new artists daily.",
+    "size": 85,
+    "reviews": 1300,
+    "ratingAvg": 4.7,
+    "downloads": 110000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 700 }
+    ]
+  }
+]
