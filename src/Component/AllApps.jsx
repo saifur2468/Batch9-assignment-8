@@ -89,8 +89,8 @@ const AllApps = () => {
               </p>
 
               <div className="w-full flex justify-between items-center mt-auto border-t pt-4">
-                <div className="text-left">
-                  <p className="text-[10px] text-gray-400 uppercase">Downloads <FaDownload></FaDownload></p>
+                <div className="text-left flex gap-2">
+                  <p className="text-[10px] text-gray-400 uppercase"><FaDownload></FaDownload></p>
                   <p className="text-sm font-bold text-gray-700">{app.downloads.toLocaleString()}</p>
                 </div>
                 <div className="text-right flex flex-col items-end">
@@ -102,7 +102,7 @@ const AllApps = () => {
                 </div>
                 {/* {`/product/${product_id}`} */}
               <Link to={`/card-details/${app.id}`}>
-                <button className='btn btn-primary'>view details</button>
+                <button className="mt-3 bg-purple-600 text-white px-4 py-1 rounded-lg">view details</button>
                </Link>
               </div>
             </div>

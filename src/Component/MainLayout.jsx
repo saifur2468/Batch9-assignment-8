@@ -26,34 +26,46 @@ const MainLayout = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         {topApps.map((app) => (
           <div
-            key={app.id}
-            className="border rounded-xl p-4 hover:shadow-lg transition-shadow bg-white flex flex-col items-center text-center"
-          >
+  key={app.id}
+  className="bg-gray-50 border rounded-2xl p-4 hover:shadow-lg transition w-full"
+>
 
-            <img
-              src={app.image}
-              alt={app.title}
-              className="w-24 h-24 rounded-2xl mb-4 object-cover"
-            />
+ 
+  <div className="bg-gray-200 rounded-xl h-40 w-full mb-4">
+<img
+  src={app.image}
+  alt={app.title}
+  className="w-full h-40 object-cover rounded-xl mb-4"
+/>
 
-            <h3 className="text-lg font-bold">{app.title}</h3>
+  </div>
 
-            <p className="text-sm text-gray-500 flex items-center gap-1">
-              {app.downloads.toLocaleString()} Downloads <FaDownload />
-            </p>
+ 
+  <h3 className="text-lg font-semibold text-gray-800 mb-3">
+    {app.title}
+  </h3>
 
-            <div className="flex items-center mt-2 text-yellow-500">
-              <span className="font-bold mr-1">{app.ratingAvg}</span>
-              <CiStar />
-            </div>
+ 
+  <div className="flex justify-between items-center">
 
-            <Link to={`/card-details/${app.id}`}>
-              <button className="mt-3 bg-purple-600 text-white px-4 py-1 rounded-lg">
-                View Details
-              </button>
-            </Link>
+    <p className="flex items-center gap-1 bg-green-100 text-green-600 px-3 py-1 rounded-md text-sm">
+      <FaDownload /> {app.downloads}
+    </p>
 
-          </div>
+    <p className="flex items-center gap-1 bg-orange-100 text-orange-500 px-3 py-1 rounded-md text-sm">
+      <CiStar /> {app.ratingAvg}
+    </p>
+
+  </div>
+
+ 
+  <Link to={`/card-details/${app.id}`}>
+    <button className="mt-4 w-full bg-purple-600 text-white py-2 rounded-lg hover:bg-purple-700">
+      View Details
+    </button>
+  </Link>
+
+</div>
         ))}
       </div>
 

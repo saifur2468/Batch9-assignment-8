@@ -14,7 +14,7 @@ const CardDetailes = () => {
   const dataArray = Array.isArray(allData) ? allData : [];
   const app = dataArray.find((item) => item.id === parseInt(id));
 
-  // LocalStorage check
+  
   useEffect(() => {
     if (app) {
       const installedApps = JSON.parse(localStorage.getItem('installedApps')) || [];
@@ -60,7 +60,7 @@ const CardDetailes = () => {
 
       <Toaster position="top-center" />
 
-      {/* App Header */}
+    
       <div className="flex flex-col md:flex-row items-center gap-10 bg-white p-8 rounded-3xl shadow-sm border mb-12">
 
         <img
@@ -104,7 +104,7 @@ const CardDetailes = () => {
         </div>
       </div>
 
-      {/* Chart Section */}
+     
 
       <div className="bg-gray-50 p-6 rounded-3xl border mb-10">
 

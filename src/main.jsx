@@ -5,36 +5,42 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import "./index.css";
-import App from "./App";
+
 import AllApps from "./Component/AllApps";
 import CardDetailes from "./Component/CardDetailes";
 import ErrorPage from "./Component/Error";
 import Installation from "./Component/Installation";
+import Layout from "./Component/Layout";
+import Home from "./Component/Home";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App></App>,
-    errorElement:<ErrorPage></ErrorPage>
-  },
-
-  {
-    path:"AllApps",
-    element:<AllApps></AllApps>
-  },
-{
-        path: "/card-details/:id", 
+    element: <Layout />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "AllApps",
+        element: <AllApps />,
+      },
+      {
+        path: "card-details/:id",
         element: <CardDetailes />,
         loader: async () => {
-          const response = await fetch('/card.json'); 
+          const response = await fetch("/card.json");
           return response.json();
         },
-}
-,
-{
-  path:"/Installation",
-  element:<Installation></Installation>
-}
+      },
+      {
+        path: "Installation",
+        element: <Installation />,
+      },
+    ],
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

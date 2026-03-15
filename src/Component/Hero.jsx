@@ -9,9 +9,9 @@ const Hero = () => {
         <div>
             <section>
                 <div >
-                    <h1 className='text-center text-4xl font-serif '>We Build </h1>
+                    <h1 className='text-center text-4xl font-serif my-4'>We Build </h1>
                     <h1 className='text-center text-6xl font-serif text-blue-800'>Productive Apps</h1>
-                    <p className='text-center text-xl font-serif mt-1'>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.<br></br>Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
+                    <p className='text-center font-serif mt-1'>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.<br></br>Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
                 </div>
                 <div className='flex justify-center'>
                     <div className='flex flex-col sm:flex-row justify-center items-center gap-4 mt-4'>
@@ -27,7 +27,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div>
-                    <img className='mx-auto mt-1  ' src={heroimg} alt="" srcSet="" />
+                    <img className='mx-auto mt-1   ' src={heroimg} alt="" srcSet="" />
                 </div>
             </section>
             <StatsSection></StatsSection>
