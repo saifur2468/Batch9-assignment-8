@@ -1,16 +1,59 @@
-# React + Vite
+#  Hero IO – App Discovery Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hero IO is a modern **App Discovery Web Application** where users can explore top-rated apps, view detailed information, and manage installed apps easily.
 
-Currently, two official plugins are available:
+The homepage highlights **Top Rated Apps**, and users can view app details before installing them. Installed apps are stored in **LocalStorage**, and users can remove them anytime.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project is built with **React.js** and **Tailwind CSS** with a clean UI and responsive design.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Live Features
 
-## Expanding the ESLint configuration
+###  Home Page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Display **Top Rated Apps**
+* Clean and modern **UI design**
+* Fully **responsive layout**
+* Data visualization using **React Chart**
+
+###  App Details
+
+* View detailed information about each app
+* Includes:
+
+  * Rating
+  * Description
+  * Category
+  * Features
+
+### ⬇ Install App
+
+* Click the **Install Button** to install an app
+* Installed apps are stored in **LocalStorage**
+
+###  Remove App
+
+* Users can remove installed apps anytime
+* LocalStorage updates instantly
+
+###  App Statistics
+
+* App rating statistics displayed using **React Chart**
+
+---
+
+##  Technologies Used
+
+* React.js
+* Tailwind CSS
+* React Router
+* React Chart
+* LocalStorage
+* JavaScript (ES6)
+
+
+
+
+
+⭐ If you like this project, consider **starring the repository**.
